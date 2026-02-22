@@ -26,4 +26,10 @@ You should ensure the following tools are available to compile correctly:
 - Irsim
 
 Feel free to reach out to sr185@rice.edu with any questions
+<p align="center">
+  <img width="664" height="577" alt="Screenshot" src="https://github.com/user-attachments/assets/103b359f-bd55-4932-ba81-9f725ab5fcf1" />
+</p>
+
+
+
 
