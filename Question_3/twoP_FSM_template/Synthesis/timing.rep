@@ -1,0 +1,80 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : fsmd_top
+Version: U-2022.12-SP7
+Date   : Fri Feb 20 04:08:06 2026
+****************************************
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: NOT_IN (input port clocked by clka)
+  Endpoint: ctrl_inst/next_state_reg[0]
+            (falling edge-triggered flip-flop clocked by clka)
+  Path Group: clka
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clka (rise edge)                                  0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    1.00       1.00 f
+  NOT_IN (in)                                             0.07       1.07 f
+  ctrl_inst/U11/Y (INVX2)                                 0.10       1.17 r
+  ctrl_inst/U30/Y (NOR2X1)                                0.22       1.40 f
+  ctrl_inst/U28/Y (OAI21X1)                               0.16       1.55 r
+  ctrl_inst/U7/Y (INVX2)                                  0.08       1.63 f
+  ctrl_inst/U23/Y (OAI21X1)                               0.11       1.74 r
+  ctrl_inst/next_state_reg[0]/D (DFFNEGX1)                0.00       1.74 r
+  data arrival time                                                  1.74
+
+  clock clka (fall edge)                                 20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  ctrl_inst/next_state_reg[0]/CLK (DFFNEGX1)              0.00      20.00 f
+  library setup time                                     -0.33      19.67
+  data required time                                                19.67
+  --------------------------------------------------------------------------
+  data required time                                                19.67
+  data arrival time                                                 -1.74
+  --------------------------------------------------------------------------
+  slack (MET)                                                       17.92
+
+
+  Startpoint: ctrl_inst/ctrl_ld_reg
+              (falling edge-triggered flip-flop clocked by clkb)
+  Endpoint: dp_inst/dout_reg[0]
+            (falling edge-triggered flip-flop clocked by clkb)
+  Path Group: clkb
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clkb (fall edge)                                 20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  ctrl_inst/ctrl_ld_reg/CLK (DFFNEGX1)                    0.00      20.00 f
+  ctrl_inst/ctrl_ld_reg/Q (DFFNEGX1)                      0.30      20.30 r
+  dp_inst/U8/Y (INVX2)                                    0.16      20.46 f
+  dp_inst/U20/Y (NAND3X1)                                 0.23      20.69 r
+  dp_inst/U6/Y (INVX2)                                    0.17      20.85 f
+  dp_inst/U17/Y (AOI22X1)                                 0.14      21.00 r
+  dp_inst/U16/Y (OAI21X1)                                 0.08      21.08 f
+  dp_inst/dout_reg[0]/D (DFFNEGX1)                        0.00      21.08 f
+  data arrival time                                                 21.08
+
+  clock clkb (fall edge)                                 60.00      60.00
+  clock network delay (ideal)                             0.00      60.00
+  dp_inst/dout_reg[0]/CLK (DFFNEGX1)                      0.00      60.00 f
+  library setup time                                     -0.37      59.63
+  data required time                                                59.63
+  --------------------------------------------------------------------------
+  data required time                                                59.63
+  data arrival time                                                -21.08
+  --------------------------------------------------------------------------
+  slack (MET)                                                       38.56
+
+
+1

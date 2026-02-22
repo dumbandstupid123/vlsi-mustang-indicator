@@ -1,0 +1,95 @@
+ 
+****************************************
+Report : cell
+Design : fsmd_top
+Version: U-2022.12-SP7
+Date   : Fri Feb 20 04:08:06 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+ctrl_inst/U3              INVX2           osu05_stdcells  144.000000
+ctrl_inst/U4              INVX2           osu05_stdcells  144.000000
+ctrl_inst/U5              INVX2           osu05_stdcells  144.000000
+ctrl_inst/U6              INVX2           osu05_stdcells  144.000000
+ctrl_inst/U7              INVX2           osu05_stdcells  144.000000
+ctrl_inst/U8              INVX2           osu05_stdcells  144.000000
+ctrl_inst/U9              INVX2           osu05_stdcells  144.000000
+ctrl_inst/U10             INVX2           osu05_stdcells  144.000000
+ctrl_inst/U11             INVX2           osu05_stdcells  144.000000
+ctrl_inst/U12             NOR2X1          osu05_stdcells  216.000000
+ctrl_inst/U13             NOR2X1          osu05_stdcells  216.000000
+ctrl_inst/U14             NAND2X1         osu05_stdcells  216.000000
+ctrl_inst/U15             NOR2X1          osu05_stdcells  216.000000
+ctrl_inst/U16             NAND2X1         osu05_stdcells  216.000000
+ctrl_inst/U17             OAI21X1         osu05_stdcells  207.000000
+ctrl_inst/U18             NAND3X1         osu05_stdcells  324.000000
+ctrl_inst/U19             NAND2X1         osu05_stdcells  216.000000
+ctrl_inst/U20             OAI21X1         osu05_stdcells  207.000000
+ctrl_inst/U21             NAND3X1         osu05_stdcells  324.000000
+ctrl_inst/U22             AOI21X1         osu05_stdcells  288.000000
+ctrl_inst/U23             OAI21X1         osu05_stdcells  207.000000
+ctrl_inst/U24             NAND2X1         osu05_stdcells  216.000000
+ctrl_inst/U25             OAI21X1         osu05_stdcells  207.000000
+ctrl_inst/U26             NOR2X1          osu05_stdcells  216.000000
+ctrl_inst/U27             NAND3X1         osu05_stdcells  324.000000
+ctrl_inst/U28             OAI21X1         osu05_stdcells  207.000000
+ctrl_inst/U29             NAND2X1         osu05_stdcells  216.000000
+ctrl_inst/U30             NOR2X1          osu05_stdcells  216.000000
+ctrl_inst/ctrl_clear_reg  DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+ctrl_inst/ctrl_ld_reg     DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+ctrl_inst/ctrl_not_reg    DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+ctrl_inst/next_state_reg[0]
+                          DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+ctrl_inst/next_state_reg[1]
+                          DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+ctrl_inst/next_state_reg[2]
+                          DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+ctrl_inst/state_reg[0]    DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+ctrl_inst/state_reg[1]    DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+ctrl_inst/state_reg[2]    DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+dp_inst/U3                INVX2           osu05_stdcells  144.000000
+dp_inst/U4                INVX2           osu05_stdcells  144.000000
+dp_inst/U5                INVX2           osu05_stdcells  144.000000
+dp_inst/U6                INVX2           osu05_stdcells  144.000000
+dp_inst/U7                INVX2           osu05_stdcells  144.000000
+dp_inst/U8                INVX2           osu05_stdcells  144.000000
+dp_inst/U9                NOR2X1          osu05_stdcells  216.000000
+dp_inst/U10               AOI22X1         osu05_stdcells  360.000000
+dp_inst/U11               XOR2X1          osu05_stdcells  504.000000
+dp_inst/U12               OAI21X1         osu05_stdcells  207.000000
+dp_inst/U13               AOI22X1         osu05_stdcells  360.000000
+dp_inst/U14               OAI21X1         osu05_stdcells  207.000000
+dp_inst/U15               AOI22X1         osu05_stdcells  360.000000
+dp_inst/U16               OAI21X1         osu05_stdcells  207.000000
+dp_inst/U17               AOI22X1         osu05_stdcells  360.000000
+dp_inst/U18               NOR2X1          osu05_stdcells  216.000000
+dp_inst/U19               NAND3X1         osu05_stdcells  324.000000
+dp_inst/U20               NAND3X1         osu05_stdcells  324.000000
+dp_inst/dout_reg[0]       DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+dp_inst/dout_reg[1]       DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+dp_inst/dout_reg[2]       DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+dp_inst/dout_reg[3]       DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+--------------------------------------------------------------------------------
+Total 59 cells                                            21492.000000
+1

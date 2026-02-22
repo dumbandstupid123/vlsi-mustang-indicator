@@ -1,0 +1,95 @@
+ 
+****************************************
+Report : cell
+Design : twoP_FSM
+Version: U-2022.12-SP7
+Date   : Thu Feb 19 23:13:53 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+ERROR_reg                 DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+L0_reg                    DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+L1_reg                    DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+L2_reg                    DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+R0_reg                    DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+R1_reg                    DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+R2_reg                    DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+U7                        INVX2           osu05_stdcells  144.000000
+U8                        INVX2           osu05_stdcells  144.000000
+U10                       INVX2           osu05_stdcells  144.000000
+U11                       INVX2           osu05_stdcells  144.000000
+U12                       INVX2           osu05_stdcells  144.000000
+U13                       INVX2           osu05_stdcells  144.000000
+U14                       INVX2           osu05_stdcells  144.000000
+U15                       INVX2           osu05_stdcells  144.000000
+U18                       INVX2           osu05_stdcells  144.000000
+U19                       INVX2           osu05_stdcells  144.000000
+U20                       INVX2           osu05_stdcells  144.000000
+U21                       INVX2           osu05_stdcells  144.000000
+U22                       INVX2           osu05_stdcells  144.000000
+U23                       NOR2X1          osu05_stdcells  216.000000
+U24                       AOI22X1         osu05_stdcells  360.000000
+U25                       OAI21X1         osu05_stdcells  207.000000
+U27                       OAI22X1         osu05_stdcells  360.000000
+U28                       OAI22X1         osu05_stdcells  360.000000
+U29                       OAI21X1         osu05_stdcells  207.000000
+U31                       OAI21X1         osu05_stdcells  207.000000
+U32                       NAND3X1         osu05_stdcells  324.000000
+U39                       NOR2X1          osu05_stdcells  216.000000
+U40                       NAND2X1         osu05_stdcells  216.000000
+U41                       AOI21X1         osu05_stdcells  288.000000
+U42                       OAI21X1         osu05_stdcells  207.000000
+U43                       NOR2X1          osu05_stdcells  216.000000
+U44                       NOR2X1          osu05_stdcells  216.000000
+U45                       NAND3X1         osu05_stdcells  324.000000
+U46                       NOR2X1          osu05_stdcells  216.000000
+U47                       NAND2X1         osu05_stdcells  216.000000
+U50                       NOR2X1          osu05_stdcells  216.000000
+U51                       NAND2X1         osu05_stdcells  216.000000
+U52                       AOI21X1         osu05_stdcells  288.000000
+U53                       OAI21X1         osu05_stdcells  207.000000
+U54                       NAND3X1         osu05_stdcells  324.000000
+U55                       NOR2X1          osu05_stdcells  216.000000
+U56                       NOR2X1          osu05_stdcells  216.000000
+U57                       NOR2X1          osu05_stdcells  216.000000
+U58                       OR2X2           osu05_stdcells  288.000000
+U59                       OR2X2           osu05_stdcells  288.000000
+U60                       OR2X2           osu05_stdcells  288.000000
+U61                       INVX1           osu05_stdcells  144.000000
+U62                       INVX2           osu05_stdcells  144.000000
+U63                       NOR2X1          osu05_stdcells  216.000000
+U64                       NOR2X1          osu05_stdcells  216.000000
+U65                       INVX2           osu05_stdcells  144.000000
+U66                       INVX2           osu05_stdcells  144.000000
+U67                       NAND2X1         osu05_stdcells  216.000000
+U68                       NAND2X1         osu05_stdcells  216.000000
+next_state_reg[0]         DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+next_state_reg[1]         DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+next_state_reg[2]         DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+state_reg[0]              DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+state_reg[1]              DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+state_reg[2]              DFFNEGX1        osu05_stdcells  864.000000
+                                                                    n
+--------------------------------------------------------------------------------
+Total 62 cells                                            21663.000000
+1

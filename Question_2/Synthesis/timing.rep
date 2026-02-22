@@ -1,0 +1,46 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : twoP_FSM
+Version: U-2022.12-SP7
+Date   : Thu Feb 19 23:13:53 2026
+****************************************
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: LEFT (input port clocked by clka)
+  Endpoint: next_state_reg[2]
+            (falling edge-triggered flip-flop clocked by clka)
+  Path Group: clka
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clka (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     1.00       1.00 f
+  LEFT (in)                                0.22       1.22 f
+  U20/Y (INVX2)                            0.17       1.39 r
+  U25/Y (OAI21X1)                          0.11       1.50 f
+  U24/Y (AOI22X1)                          0.12       1.62 r
+  U23/Y (NOR2X1)                           0.12       1.74 f
+  next_state_reg[2]/D (DFFNEGX1)           0.00       1.74 f
+  data arrival time                                   1.74
+
+  clock clka (fall edge)                  10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  next_state_reg[2]/CLK (DFFNEGX1)         0.00      10.00 f
+  library setup time                      -0.37       9.63
+  data required time                                  9.63
+  -----------------------------------------------------------
+  data required time                                  9.63
+  data arrival time                                  -1.74
+  -----------------------------------------------------------
+  slack (MET)                                         7.89
+
+
+1

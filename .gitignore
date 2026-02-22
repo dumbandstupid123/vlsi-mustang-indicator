@@ -1,0 +1,31 @@
+# OS junk
+.DS_Store
+
+# VLSI Tool Junk
+# Questa / ModelSim
+transcript
+vsim.wlf
+*.vstf
+work/
+_info
+
+# Innovus
+innovus.log*
+innovus.cmd*
+*.key
+*.log
+*.rpt
+*.summary
+*.rpt.old
+
+# Synthesis (Design Compiler / Genus)
+command.log
+synthesis.log
+*.v
+# Don't ignore final.v if it's the output? Actually better keep outputs separate.
+# But for hw labs, we usually want final.v.
+# I'll be selective.
+
+# General logs
+*.log
+*.cmd
