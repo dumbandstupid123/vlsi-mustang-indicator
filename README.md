@@ -2,8 +2,6 @@
 
 Mustang Indicator: CMOS FSMD for Sequential Turn Signal on a Ford Mustang
 
-<img width="500" height="446" alt="Screenshot 2026-02-22 at 4 40 23 PM" src="https://github.com/user-attachments/assets/80257051-f9a2-492a-8c67-449fdbaeddba" />
-
 This repository contains Verilog implementations to build a sequential turn signal controller typically found on the Ford Mustang with two variations:
 1. Finite State Machine Implementation
 2. Finite State Machine With Datapath Implementation
