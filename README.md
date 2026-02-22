@@ -6,10 +6,20 @@ This repository contains Verilog implementations to build a sequential turn sign
 1. Finite State Machine Implementation
 2. Finite State Machine With Datapath Implementation
 
-<p align="center">
-  <img width="300" height="300" alt="Screenshot" src="https://github.com/user-attachments/assets/103b359f-bd55-4932-ba81-9f725ab5fcf1" />
-</p>
-
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/103b359f-bd55-4932-ba81-9f725ab5fcf1" width="400" alt="FSM Layout" />
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/7c9610d4-23ac-4fd6-bd11-e888f3599fde" width="400" alt="FSMD Layout" />
+    </td>
+  </tr>
+  <tr align="center">
+    <td><b>FSM Implementation</b></td>
+    <td><b>FSMD Implementation</b></td>
+  </tr>
+</table>
 
 ## Design Details
 
