@@ -19,9 +19,9 @@ This repository contains Verilog implementations to build a sequential turn sign
     </td>
   </tr>
   <tr align="center">
-    <td><b>FSM Layout</b></td>
-    <td><b>FSMD Layout</b></td>
-    <td><b>Target Vehicle</b></td>
+    <td><b> Cadence Innovus Implementation </b></td>
+    <td><b> Magic VLSI Layout</b></td>
+    <td><b>Ford Indicator</b></td>
   </tr>
 </table>
 
