@@ -8,9 +8,15 @@ This repository contains Verilog implementations to build a sequential turn sign
 
 <table align="center">
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/103b359f-bd55-4932-ba81-9f725ab5fcf1" width="300" /></td>
-    <td><img src="https://github.com/user-attachments/assets/7c9610d4-23ac-4fd6-bd11-e888f3599fde" width="300" /></td>
-    <td><img src="https://github.com/user-attachments/assets/e0746cc2-1057-46b0-8a21-b64d1cb26845" width="300" /></td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/103b359f-bd55-4932-ba81-9f725ab5fcf1" width="260" alt="FSM Layout" />
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/7c9610d4-23ac-4fd6-bd11-e888f3599fde" width="260" alt="FSMD Layout" />
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/e0746cc2-1057-46b0-8a21-b64d1cb26845" width="260" alt="Target Vehicle" />
+    </td>
   </tr>
   <tr align="center">
     <td><b>FSM Layout</b></td>
