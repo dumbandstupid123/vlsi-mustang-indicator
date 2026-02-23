@@ -8,21 +8,18 @@ This repository contains Verilog implementations to build a sequential turn sign
 
 <table align="center">
   <tr>
-    <td>
-      <img src="https://github.com/user-attachments/assets/103b359f-bd55-4932-ba81-9f725ab5fcf1" width="400" alt="FSM Layout" />
-    </td>
-    <td>
-      <img src="https://github.com/user-attachments/assets/7c9610d4-23ac-4fd6-bd11-e888f3599fde" width="400" alt="FSMD Layout" />
-    </td>
+    <td><img src="https://github.com/user-attachments/assets/103b359f-bd55-4932-ba81-9f725ab5fcf1" width="300" /></td>
+    <td><img src="https://github.com/user-attachments/assets/7c9610d4-23ac-4fd6-bd11-e888f3599fde" width="300" /></td>
+    <td><img src="https://github.com/user-attachments/assets/e0746cc2-1057-46b0-8a21-b64d1cb26845" width="300" /></td>
   </tr>
   <tr align="center">
-    <td><b>FSM Implementation</b></td>
-    <td><b>FSMD Implementation</b></td>
+    <td><b>FSM Layout</b></td>
+    <td><b>FSMD Layout</b></td>
+    <td><b>Target Vehicle</b></td>
   </tr>
 </table>
 
 ## Design Details
-
 The turn signal controller I've designed uses a 4-bit state machine to manage the sequence of three LEDs on each side. It follows a two-phase clocking strategy (`clka`, `clkb`) used in a lot of  VLSI designs to allow stable state transitions.
 
 ### Features
