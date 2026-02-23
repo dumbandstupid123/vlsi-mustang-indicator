@@ -20,8 +20,8 @@ This repository contains Verilog implementations to build a sequential turn sign
   </tr>
   <tr align="center">
     <td><b> Cadence Innovus Implementation </b></td>
-    <td><b> Magic VLSI Layout</b></td>
-    <td><b>Ford Mustang Lights</b></td>
+    <td><b> Magic VLSI Layout: Question 2</b></td>
+    <td><b>Ford Mustang Lights: Question 3</b></td>
   </tr>
 </table>
 
